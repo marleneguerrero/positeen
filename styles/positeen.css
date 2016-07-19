@@ -18,6 +18,10 @@ li {
     font-family:"Courier New", Courier, monospace;
 
 }
+#us {
+	max-width:100%;
+	height: auto;
+}
 
 #pr {
 	float: right;
@@ -71,7 +75,10 @@ h1 {
 img {
     width: 100%;
     height:800px;
-    border:100px solid #98FB98;
+    padding:1px;
+   border:1px solid #98FB98;
+   
+   
 }
 
 #header {
@@ -100,10 +107,19 @@ img {
 #top{
 	color:#98FB98;
 	font-family:"Courier New", Courier, monospace;
-	text-shadow: -2px 1px 16px #000000;
+	
+
+
 }
 #about{
 	color:#98FB98;
 	font-family:"Courier New", Courier, monospace;
 	text-shadow: -2px 1px 16px #000000;
+}
+#us{
+
+}
+#bio{
+	font-family:"Courier New", Courier, monospace;
+	text-shadow: -2px 1px 7px #000000;
 }
