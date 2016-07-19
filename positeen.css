@@ -11,12 +11,17 @@ li {
     width: 60px;
     display: inline;
 }
-#pr {
+
+}
+<div class="row">
+  <div class="col-xs-12 col-sm-6 col-md-8">.col-xs-12 .col-sm-6 .col-md-8</div>
+  #pr {
 	float: right;
 	height: 411px;
 	width: 266px;
 }
 #ht {
+	float: left;
 	height: 411px;
 	width: 266px;
 }
@@ -31,4 +36,11 @@ li {
 }
 #header {
 	font-size: 150px;
+  
+}
+background-color {
+	color:blue;
+}
+h1 {
+	font-size:150px;
 }
