@@ -123,6 +123,7 @@ img {
 #bio{
 	font-family:"Courier New", Courier, monospace;
 	text-shadow: -2px 1px 7px #000000;
+	border:1px solid #98FB98;
 }
 #usdiv{
 	
@@ -130,6 +131,7 @@ img {
 #bio2{
 	font-family:"Courier New", Courier, monospace;
 	text-shadow: -2px 1px 7px #000000;
+	border:1px solid #98FB98;
 
-	
+
 }
