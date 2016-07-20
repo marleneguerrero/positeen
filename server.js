@@ -14,14 +14,14 @@ app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function(req, res) {
-    var dogList = [
-        { name: 'Skip', age: 3 },
-        { name: 'Rufus', age: 5 },
-        { name: 'Buddy', age: 10 }
+    var journalList = [
+        { name: 'Brooke', date: "10/12/99" },
+        { name: 'Selah', date: "1/1/17" },
+        { name: 'Marlene', date: "2/10/99" }
     ];
    
     res.render('positeen', {
-        doggies: dogList
+        journal: journalList
     });
 });
 

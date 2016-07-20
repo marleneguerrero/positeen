@@ -22,6 +22,7 @@
      <div class = "col-md-8">
       <li id="dailypositivity">Daily Positivity</li>
     </div>
+
     <div class = "col-md-8">
       <li id="nbabout">About</li>
     </div>
@@ -68,7 +69,22 @@
 
     <center><h1 id="game">Game   </h1></center>
     <center><h1 id="daily">Daily Positivity      </h1></center>
+    
+    <ul>
+      <% journal.forEach(function(journal)) { %>
+        <li><%= journal.name %> - <%= journal.date %></li>
+      <% }); %>
+    </ul>
+
+
     <h2 id="bio2">Type something positive about yourself. It can be a nice thing you did for someone else today, an achievement (big or small), or even something that you like about yourself. Check back to remember how awesome you are!</h2>
+
+
+
+
+
+
+
     <center><h1 id="helpful">Helpful Links</h1></center>
     <center><h2><a href="http://these-dandelion-wishes.tumblr.com/post/86103978811/anxiety-panic-masterpost">Anxiety and Panic Masterpost</a></h2></center>
     <center><h2><a href="http://tourmalinetardis.tumblr.com/post/76162159323/hello-sweetie-everyone-has-those-really-rotten">Bad Day Remedies</a></h2></center>
