@@ -127,3 +127,8 @@ img {
 #usdiv{
 	
 }
+
+@media only screen and (max-width: 728px) {
+.flex_column.av_one_full {
+    padding: 0 20px 0 20px!important;
+}}
