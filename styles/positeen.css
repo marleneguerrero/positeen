@@ -117,9 +117,13 @@ img {
 	text-shadow: -2px 1px 16px #000000;
 }
 #us{
+	background-color:#98FB98;
 
 }
 #bio{
 	font-family:"Courier New", Courier, monospace;
 	text-shadow: -2px 1px 7px #000000;
+}
+#usdiv{
+	
 }

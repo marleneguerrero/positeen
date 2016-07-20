@@ -12,7 +12,7 @@ $("#dailypositivity").click(function() {
 
 $("#game1").click(function() {
     $('html, body').animate({
-        scrollTop: $("#about").offset().top
+        scrollTop: $("#game").offset().top
     }, 2000);
 });
 
