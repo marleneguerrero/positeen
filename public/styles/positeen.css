@@ -9,7 +9,6 @@ ul {
 	color: white;
 	background-color:#98FB98;
 	font-size:25px;
-	font-size: 4vw;  
 }
 
 li {
@@ -17,7 +16,6 @@ li {
     width: 60px;
     display: inline;
     font-family:"Courier New", Courier, monospace;
-    font-size: 4vw;  
 
 }
 #us {
@@ -57,7 +55,6 @@ li {
 
 h1 {
 	font-size:150px;
-	font-size: 4vw;  
 }
 
 /*#div1 {
@@ -95,21 +92,18 @@ img {
 	font-family:"Courier New", Courier, monospace;
 	background-color:#98FB98;
 	text-shadow: -2px 1px 16px #000000;
-	font-size: 4vw;  
 }
 #daily{
 	color:#98FB98;
 	font-family:"Courier New", Courier, monospace;
 	font-size:140px;
 	text-shadow: -2px 1px 16px #000000;
-	font-size: 4vw;  
 }
 #helpful{
 	color:white;
 	font-family:"Courier New", Courier, monospace;
 	background-color:#98FB98;
 	text-shadow: -2px 1px 16px #000000;
-	font-size: 4vw;  
 }
 #top{
 	color:#98FB98;
@@ -122,7 +116,6 @@ img {
 	color:#98FB98;
 	font-family:"Courier New", Courier, monospace;
 	text-shadow: -2px 1px 16px #000000;
-	font-size: 4vw;  
 }
 #us{
 	background-color:#98FB98;
@@ -131,7 +124,7 @@ img {
 #bio{
 	font-family:"Courier New", Courier, monospace;
 	text-shadow: -2px 1px 7px #000000;
-	border:5px solid #98FB98;font-size: 4vw;  
+	border:5px solid #98FB98;
 }
 #usdiv{
 	
