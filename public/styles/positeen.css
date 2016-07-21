@@ -47,7 +47,8 @@ li {
 }
 
 #header {
-	font-size: 150px;  
+	font-size: 16px; 
+	font-size: 4vw;  
 	text-shadow: -2px 1px 16px #000000;
 	background-image: url("http://a.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2014/04/3029864-poster-p-shutterstock167501147.jpg")
 }
