@@ -18,7 +18,7 @@ $("#game1").click(function() {
 
 $("#top").click(function() {
     $('html, body').animate({
-        scrollTop: $("#header").offset().top
+        scrollTop: $("#game1").offset().top
     }, 2000);
 });
 $("#helpfullinks").click(function() {
