@@ -37,7 +37,7 @@ app.get('/', function(req, res) {
     //     journal: journalList
     // });
 
-  /journal.find().lean().exec(function(err,doc){
+  /*journal.find().lean().exec(function(err,doc){
     	var dataArr = [];
     	var i = doc.length;
 
@@ -59,7 +59,6 @@ app.get('/', function(req, res) {
     		});
     	}
     });*/
-});
 
 app.listen(port, function() {
 	console.log('Our app is running on http://localhost:' + port);
