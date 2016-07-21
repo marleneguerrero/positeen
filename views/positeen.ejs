@@ -53,9 +53,11 @@
         <img id="us" src = "images/uss.jpg">
       </div>
     </div>
+  <div id= "we">
     <center>
       <h3 id="bio">Our names our (left to right) Selah, Marlene, and Brooke. We made this during the 2016 Girls Who Code AT&T summer immersion program. This was our final project. The purpose of our website is to create an environment in which people can build upon their self confidence.</h3>
     </center>
+  </div>
     <center>
       <h1 id="game">Game</h1>
     </center>
@@ -66,8 +68,8 @@
     <h2 id="bio2">Type something positive about yourself. It can be a nice thing you did for someone else today, an achievement (big or small), or even something that you like about yourself. Check back to remember how awesome you are!</h2>
 
     <ul>
-      <% journal.forEach(function(journal) { %>
-        <li><%= journal.name %> - <%= journal.date %></li>
+      <% journal.forEach(function(entry) { %>
+        <li><%= entry1.text %> - <%= entry1.date %></li>
       <% }); %>
     </ul>
   <div id="superlinks">
