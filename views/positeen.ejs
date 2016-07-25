@@ -58,16 +58,29 @@
     </center>
     <center>
       <h1 id="game">Game</h1>
+      <object id="UnityObject" classid="clsid:444785F1-DE89-4295-863A-D46C3A781394"
+    width="600" height="450"
+    codebase="http://webplayer.unity3d.com/download_webplayer/UnityWebPlayer.cab#version=2,0,0,0">
+    <param name=“unity3D” value=“WebPlayer.unity3d" />
+    <embed id="UnityEmbed" src=“HTMLGAMETEST/HTMLGAMETEST.unity3d" width="600" height="450"
+        type="application/vnd.unity" pluginspage="http://www.unity3d.com/unity-web-player-2.x" />
+</object>
     </center>
     <center>
       <h1 id="daily">Daily Positivity</h1>
     </center>
+ 
+  <h2 id="bio2">Type something positive about yourself. It can be a nice thing you did for someone else today, an achievement (big or small), or even something that you like about yourself. Check back to remember how awesome you are!</h2>
 
-    <h2 id="bio2">Type something positive about yourself. It can be a nice thing you did for someone else today, an achievement (big or small), or even something that you like about yourself. Check back to remember how awesome you are!</h2>
+  <form method="post" action="">
+      <input type="text" name="text1" placeholder="Something Positive"><br>
+      <input type="text" name="date1" placeholder="Today's Date"><br>
+      <input type="submit" value="Submit">
+  </form>
 
     <ul>
-      <% journal.forEach(function(entry) { %>
-        <li><%= entry1.text %> - <%= entry1.date %></li>
+      <% entriesWebpage.forEach(function(entry) { %>
+        <li><%= entry.text %> - <%= entry.date %></li>
       <% }); %>
     </ul>
   <div id="superlinks">
