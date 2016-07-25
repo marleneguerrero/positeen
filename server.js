@@ -34,6 +34,7 @@ var entries = mongoose.model('entry', {text:String, date:String});
 
 
 app.get('/', function(req, res) {
+
 	//searches the code for ???????
     // var entriesList = [
     //     { name: 'Brooke', date: "10/12/99" },
@@ -89,6 +90,7 @@ app.post('/',function(req,res){
 			console.log("entry was saved into the database");
 		}
 		// reports that the entry was saved into the database
+	entry1.get(thedate, thetext);
 	});
 });
 
