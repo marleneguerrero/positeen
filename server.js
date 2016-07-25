@@ -32,20 +32,9 @@ var entries = mongoose.model('entry', {text:String, date:String});
 //var entry1 = new entries ({text:"My lipstick is cute!", date:"7/21/16"});
 // hard codes first entries entry
 
-
+// gets info for entire site
 app.get('/', function(req, res) {
-
-	//searches the code for ???????
-    // var entriesList = [
-    //     { name: 'Brooke', date: "10/12/99" },
-    //     { name: 'Selah', date: "1/1/17" },
-    //     { name: 'Marlene', date: "2/10/99" }
-    // ];
-   
-    /*res.render('positeen', {
-        entries: entriesResults
-     });*/
-
+	// gets everything in our entries collection
   	entries.find().lean().exec(function(err,doc){
   		// i is the length of a collection
     	var i = doc.length;
@@ -66,10 +55,10 @@ app.get('/', function(req, res) {
     				date: doc[i].date
     			});
     		}
+    			// renders the positeen website
     		res.render('positeen',{
-    		// renders the positeen website
+    		//data from collection goes to webpage
     			entriesWebpage: entriesResults
-    		//????????????????????????
     		});
     	}
    });
@@ -90,7 +79,8 @@ app.post('/',function(req,res){
 			console.log("entry was saved into the database");
 		}
 		// reports that the entry was saved into the database
-	entry1.get(thedate, thetext);
+	
+
 	});
 });
 
