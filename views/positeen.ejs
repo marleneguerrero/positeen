@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
+  
+
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,6 +18,25 @@
     <title>Positeenvity</title>
   </head>
   <body>
+
+      <object id="UnityObject"
+              classid="clsid:444785F1-DE89-4295-863A-D46C3A781394"
+              width="800"
+              height="450"
+              codebase="http://webplayer.unity3d.com/download_webplayer/UnityWebPlayer.cab#version=2,0,0,0">
+         <param name="HTMLGAMETEST.unity3d"
+                value="HTMLGAMETEST.unity3d" />
+             <embed id="UnityEmbed"
+                    src="HTMLGAMETEST.unity3d"
+                    width="600"
+                    height="450"
+                    type="application/vnd.unity"
+                    pluginspage="http://www.unity3d.com/unity-web-player-2.x" />
+     </object>
+
+
+
+
     <ul>
       <div id="div" class="row">
         <div class = "col-md-8">
@@ -58,14 +81,16 @@
     </center>
     <center>
       <h1 id="game">Game</h1>
-      <object id="UnityObject" classid="clsid:444785F1-DE89-4295-863A-D46C3A781394"
-    width="600" height="450"
-    codebase="http://webplayer.unity3d.com/download_webplayer/UnityWebPlayer.cab#version=2,0,0,0">
-    <param name=“unity3D” value=“WebPlayer.unity3d" />
-    <embed id="UnityEmbed" src=“HTMLGAMETEST/HTMLGAMETEST.unity3d" width="600" height="450"
-        type="application/vnd.unity" pluginspage="http://www.unity3d.com/unity-web-player-2.x" />
-</object>
-    </center>
+
+     
+<!--     <object id="UnityObject" classid="clsid:444785F1-DE89-4295-863A-D46C3A781394"
+width="800" height="450"
+codebase="http://webplayer.unity3d.com/download_webplayer/UnityWebPlayer.cab#version=2,0,0,0">
+<param name="C:\Users\Girls Who Code\Desktop\Positeenvity\HTMLGAMETEST.unity3d" value="WebPlayer.unity3d" />
+<embed id="UnityEmbed" src="C:\Users\Girls Who Code\Desktop\Positeenvity\HTMLGAMETEST.unity3d" width="600" height="450"
+type="application/vnd.unity" pluginspage="http://www.unity3d.com/unity-web-player-2.x" />
+</object>  -->
+    </center> -->
     <center>
       <h1 id="daily">Daily Positivity</h1>
     </center>
@@ -80,7 +105,7 @@
 
     <ul>
       <% entriesWebpage.forEach(function(entry) { %>
-        <p><li><%= entry.text %> </li>
+        <p><li><%= entry.text %> </li> -
         <li> <%= entry.date %></li></p>
       <% }); %>
     </ul>
@@ -122,5 +147,10 @@
 
     <center><h4 id="top">Scroll to top</h4></center>
     <script src="js/javascript.js"></script>
+
+
+
+
+
   </body>
 </html>
