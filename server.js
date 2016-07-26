@@ -64,6 +64,10 @@ app.get('/', function(req, res) {
    });
 });
 
+app.get('/game', function(req, res) {
+	res.render('index');
+});
+
 app.post('/',function(req,res){
 	var thedate = req.body.date1;
 	var thetext = req.body.text1;
