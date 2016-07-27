@@ -17,6 +17,7 @@ li {
     width: 60px;
     display: inline;
     font-family:"Courier New", Courier, monospace;
+    font-size:20px;
 
 }
 #us {
@@ -29,7 +30,12 @@ li {
 	height: 411px;
 	width: 266px;
 }
-
+footer{
+	background-color:#98FB98;
+}
+h6{
+	color:white;
+}
 #ht {
 	float: left;
 	height: 411px;
@@ -147,6 +153,7 @@ img {
 	border:5px solid #98FB98;
 
 }
+
 #superlinks{
 	
 
@@ -155,4 +162,24 @@ img {
 	border:5px solid #98FB98;
 	font-size: 2vw;
 
+}
+#about5{
+	font-size: 2vw;
+	font-family:"Courier New", Courier, monospace;
+
+}
+#game5{
+	font-size: 2vw;
+	font-family:"Courier New", Courier, monospace;
+}
+#positivelinks5{
+	font-size: 2vw;
+	font-family:"Courier New", Courier, monospace;
+}
+#dailypositivity{
+	font-size: 2vw;
+	font-family:"Courier New", Courier, monospace;
+}
+li{
+	color:white;
 }
