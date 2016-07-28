@@ -54,7 +54,7 @@ h6{
 }
 
 #header {
-	font-size: 150px; 
+	
 	font-size: 10vw;  
 	text-shadow: -2px 1px 16px #000000;
 	background-image: url("http://a.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2014/04/3029864-poster-p-shutterstock167501147.jpg")
@@ -108,7 +108,6 @@ img {
 #daily{
 	color:#98FB98;
 	font-family:"Courier New", Courier, monospace;
-	font-size:140px;
 	font-size: 10vw;
 	text-shadow: -2px 1px 16px #000000;
 	background-image: url("http://science-all.com/images/wallpapers/tumblr-wallpaper/tumblr-wallpaper-18.jpg")
